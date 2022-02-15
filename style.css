@@ -1,0 +1,40 @@
+.titles{
+  display: flex;
+}
+.titles > h3:first-child{
+  margin-left: 45px;
+  width: 50px;
+}
+.titles h3{
+  width: 200px;
+}
+.values{
+  display: flex;
+}
+.values > p:first-child{
+  width: 50px;
+}
+.values p{
+  width: 150px;
+}
+
+.pagination a, .pagination div {
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+.pagination a:hover, .pagination div:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #4680db;
+}
+
+.pagination a.current, .pagination div.current {
+  font-weight: bold;
+  color: #000;
+  background: #fffc9b;
+}
